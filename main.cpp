@@ -1,6 +1,6 @@
 #include <iostream>
 
-void swap(int* a, int* b)
+void Swap(int* a, int* b)
 {
     int temp = *a;
     *a = *b;
@@ -15,7 +15,7 @@ int main() {
     int b = 20;
 
     std::cout << "Before swapping: a = " << a << ", b = " << b << "\n";
-    swap(&a, &b);
+    Swap(&a, &b);
     std::cout << "After swapping: a = " << a << ", b = " << b << "\n";
 
     return 0;
